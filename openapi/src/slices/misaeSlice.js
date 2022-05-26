@@ -1,3 +1,9 @@
+/**
+ * @filename: misaeSlice.js
+ * @description: axios처리 및 상태값 관리하는 slice.js
+ * @author: 최수진(sujin971008@gmail.com),박세영()
+ */
+
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
@@ -41,6 +47,7 @@ const misaeSlice = createSlice({
     },
     [getInfo.fulfilled]: (state, { payload }) => {
       return {
+        /* 원하는 key가 깊이 있어서 items까지 접근 */
         items: payload?.data?.response?.body?.items,
         loading: false,
         error: null,

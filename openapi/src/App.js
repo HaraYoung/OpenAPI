@@ -1,3 +1,8 @@
+/**
+ * @filename: App.js
+ * @description: index.js에 페이지 라우팅
+ * @author: 최수진(sujin971008@gmail.com),박세영()
+ */
 import React from "react";
 
 import Misea from "./pages/misea";
@@ -5,8 +10,6 @@ import Misea from "./pages/misea";
 function App() {
   return (
     <div>
-      <h1>openAPI</h1>
-      <hr />
       <Misea />
     </div>
   );
