@@ -29,14 +29,19 @@ const Meta = (props) => {
             *{
                 list-style: none;
             }
-
             body {
                 margin: 0;
                 padding: 0;
             }
          
             `}</style>
+
         {/* 추가적으로 적용해야 할 외부 js나 css로 여기서 명시할 수 있다. */}
+        {/*font awesome 참조*/}
+        <script
+          src="https://kit.fontawesome.com/aa134343d6.js"
+          crossorigin="anonymous"
+        ></script>
       </Helmet>
     </HelmetProvider>
   );

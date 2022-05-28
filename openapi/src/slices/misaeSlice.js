@@ -1,7 +1,7 @@
 /**
  * @filename: misaeSlice.js
  * @description: axios처리 및 상태값 관리하는 slice.js
- * @author: 최수진(sujin971008@gmail.com),박세영()
+ * @author: 최수진(sujin971008@gmail.com),박세영(qkrtpdud9899@gmail.com)
  */
 
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";

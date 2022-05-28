@@ -1,7 +1,7 @@
 /**
  * @filename: index.js
  * @description: store로 부터 구독받아서 App.js를 통해서 전달
- * @author: 최수진(sujin971008@gmail.com),박세영()
+ * @author: 최수진(sujin971008@gmail.com),박세영(qkrtpdud9899@gmail.com)
  */
 
 import React from "react";
