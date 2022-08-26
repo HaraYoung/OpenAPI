@@ -176,8 +176,9 @@ const Misae = () => {
           {items &&
             items.map((v, i) => {
               //v.khaiGrade 값에 따른 배경색 분기
+              if(v.stationName === stationName){
               if (v.khaiGrade === "1") {
-                bgRef.current.style.backgroundColor = "#01DF01";
+                bgRef.current.style.backgroundColor = "#01DF01"
               } else if (v.khaiGrade === "2") {
                 bgRef.current.style.backgroundColor = "#F7D358";
               } else if (v.khaiGrade === "3") {
@@ -187,6 +188,8 @@ const Misae = () => {
               } else {
                 bgRef.current.style.backgroundColor = "#fff";
               }
+              }
+
               return (
                 v.stationName === stationName && (
                   <div className="dustArea">
